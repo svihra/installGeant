@@ -152,8 +152,8 @@ echo "Using zsh";
 cat <<EOT >> ~/.zshrc
 #
 #GEANT sourcing
-cd /opt/$NAME/geant-install
-source bin/geant4.sh
+cd /opt/$NAME/geant-install/bin
+source geant4.sh
 popd > /dev/null
 EOT
 fi
