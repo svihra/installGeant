@@ -67,7 +67,7 @@ else
 fi
 
 sudo echo ;
-sudo apt-get --ignore-missing --yes --force-yes install qtcreator git dpkg-dev gcc g++ make cmake binutils libxmu-dev libx11-dev libxpm-dev libxft-dev libxext-dev libqt4-dev libgl1-mesa-dev python python-dev libxerces-c-dev;
+sudo apt-get --ignore-missing --yes --force-yes install libqt4-opengl-dev qtcreator git dpkg-dev gcc g++ make cmake binutils libxmu-dev libx11-dev libxpm-dev libxft-dev libxext-dev libqt4-dev libgl1-mesa-dev python python-dev libxerces-c-dev;
 
 if [ ! -d /opt/$NAME/geant-build ]; then
 
