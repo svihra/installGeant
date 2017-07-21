@@ -1,5 +1,5 @@
 # installGeant
-# Script for automatically downloading and installing GEANT (including required libraries and setting up environment)
+Script for automatically downloading and installing GEANT (including required libraries and setting up environment)
 
 # For QT creator CMake compilation run CMake with
 -DGeant4_DIR=/opt/geant4.10.03.p01/geant-install/lib/Geant4-10.3.1
