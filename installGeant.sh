@@ -129,7 +129,7 @@ echo "##########################################################################
 echo "#########################################################################################";
 echo "running cmake";
 echo "#########################################################################################";
-sudo cmake -DGEANT4_INSTALL_DATA=ON -DGEANT4_BUILD_MULTITHREADED=ON -DGEANT4_USE_QT=ON -DGEANT4_OPENGL_X11=ON -DGEANT4_SYSTEM_EXPAT=OFF -DCMAKE_INSTALL_PREFIX=/opt/$NAME/geant-install -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_LINKER=ld $SOURCE
+sudo cmake -DGEANT4_INSTALL_DATA=ON -DGEANT4_USE_GDML=ON -DGEANT4_BUILD_MULTITHREADED=ON -DGEANT4_USE_QT=ON -DGEANT4_OPENGL_X11=ON -DGEANT4_SYSTEM_EXPAT=OFF -DCMAKE_INSTALL_PREFIX=/opt/$NAME/geant-install -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_LINKER=ld $SOURCE
 
 sudo make -j$CORES
 sudo make install
